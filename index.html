@@ -89,6 +89,21 @@
       color: #666;
     }
   </style>
+
+<style>
+  @media (max-width: 768px) {
+    .horizontal-scroll {
+      display: block !important;
+      overflow-x: unset !important;
+      scroll-snap-type: none !important;
+    }
+    .panel {
+      width: 100vw !important;
+      height: auto !important;
+      scroll-snap-align: none !important;
+    }
+  }
+</style>
 </head>
 <body>
   <div class="horizontal-container">
